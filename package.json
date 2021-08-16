@@ -2,7 +2,7 @@
   "name": "vite-boilerplate",
   "version": "0.0.0",
   "scripts": {
-    "clinet:dev": "vite",
+    "client:dev": "vite",
     "client:build": "tsc && vite build",
     "server:dev": "ts-node-dev --respawn --transpile-only --project tsconfig.server.json src/server.ts",
     "server:build": "tsc --project tsconfig.server.json",
